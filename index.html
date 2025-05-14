@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AgroBrasil - Seu Portal de Agropecuária</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+        
+        header {
+            background-color: #2e7d32;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        
+        .logo {
+            font-size: 2.5em;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        
+        nav {
+            background-color: #1b5e20;
+            padding: 10px 0;
+        }
+        
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+        
+        nav ul li {
+            margin: 0 15px;
+        }
+        
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            padding: 5px 10px;
+        }
+        
+        nav ul li a:hover {
+            background-color: #4caf50;
+            border-radius: 5px;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+        
+        .banner {
+            background-color: #c8e6c9;
+            padding: 20px;
+            border-radius: 8px;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        
+        .banner h1 {
+            color: #2e7d32;
+            margin-bottom: 10px;
+        }
+        
+        .content-section {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            margin-bottom: 30px;
+        }
+        
+        .content-box {
+            background-color: white;
+            border-radius: 8px;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            flex-basis: calc(50% - 15px);
+        }
+        
+        .content-box h2 {
+            color: #2e7d32;
+            border-bottom: 2px solid #c8e6c9;
+            padding-bottom: 10px;
+            margin-top: 0;
+        }
+        
+        .full-width {
+            flex-basis: 100%;
+        }
+        
+        .card-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        
+        .card {
+            background-color: white;
+            border-radius: 8px;
+            padding: 15px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            flex-basis: calc(33% - 15px);
+            text-align: center;
+        }
+        
+        .card h3 {
+            color: #2e7d32;
+        }
+        
+        .card-icon {
+            font-size: 2em;
+            color: #4caf50;
+            margin: 10px 0;
+        }
+        
+        footer {
+            background-color: #2e7d32;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            margin-top: 30px;
+        }
+        
+        @media (max-width: 768px) {
+            .content-box, .card {
+                flex-basis: 100%;
+            }
+            
+            nav ul {
+                flex-direction: column;
+                align-items: center;
+            }
+            
+            nav ul li {
+                margin: 5px 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">AgroBrasil</div>
+        <p>Seu Portal Completo de Agropecuária</p>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="#">Início</a></li>
+            <li><a href="#">Agricultura</a></li>
+            <li><a href="#">Pecuária</a></li>
+            <li><a href="#">Tecnologias</a></li>
+            <li><a href="#">Sustentabilidade</a></li>
+            <li><a href="#">Contato</a></li>
+        </ul>
+    </nav>
+    
+    <div class="container">
+        <div class="banner">
+            <h1>Bem-vindo ao Portal da Agropecuária Brasileira</h1>
+            <p>Informações, tecnologias e notícias atualizadas do campo para você.</p>
+        </div>
+        
+        <div class="content-section">
+            <div class="content-box">
+                <h2>Agricultura</h2>
+                <p>A agricultura representa uma das bases da economia brasileira, com destaque para a produção de:</p>
+                <ul>
+                    <li><strong>Grãos:</strong> Soja, milho, trigo, arroz e feijão</li>
+                    <li><strong>Frutas:</strong> Laranja, maçã, banana, uva e manga</li>
+                    <li><strong>Café:</strong> Um dos principais produtores mundiais</li>
+                    <li><strong>Cana-de-açúcar:</strong> Produção de açúcar e etanol</li>
+                </ul>
+                <p>O Brasil se destaca pela sua diversidade de cultivos e pela alta produtividade em suas lavouras, graças à combinação de clima favorável, solo fértil e tecnologias avançadas.</p>
+            </div>
+            
+            <div class="content-box">
+                <h2>Pecuária</h2>
+                <p>O setor pecuário brasileiro é reconhecido mundialmente, com destaque para:</p>
+                <ul>
+                    <li><strong>Bovinos:</strong> Um dos maiores rebanhos do mundo</li>
+                    <li><strong>Suínos:</strong> Crescente produção e exportação</li>
+                    <li><strong>Aves:</strong> Grande produtor e exportador de frango</li>
+                    <li><strong>Caprinos e Ovinos:</strong> Importante principalmente no Nordeste</li>
+                </ul>
+                <p>A pecuária brasileira tem investido em melhoramento genético, manejo sanitário e nutrição animal, elevando a qualidade dos produtos de origem animal no país.</p>
+            </div>
+            
+            <div class="content-box full-width">
+                <h2>Tecnologia no Campo</h2>
+                <p>A agropecuária moderna utiliza cada vez mais recursos tecnológicos para aumentar a produtividade e a sustentabilidade:</p>
+                
+                <div class="card-container">
+                    <div class="card">
+                        <h3>Agricultura de Precisão</h3>
+                        <div class="card-icon">🛰️</div>
+                        <p>Uso de GPS, drones e sensores para otimizar o uso de insumos e recursos naturais.</p>
+                    </div>
+                    
+                    <div class="card">
+                        <h3>Biotecnologia</h3>
+                        <div class="card-icon">🧬</div>
+                        <p>Desenvolvimento de cultivares mais produtivas e resistentes a pragas e doenças.</p>
+                    </div>
+                    
+                    <div class="card">
+                        <h3>Irrigação Inteligente</h3>
+                        <div class="card-icon">💧</div>
+                        <p>Sistemas automatizados que economizam água e entregam a quantidade ideal para cada cultura.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="content-section">
+            <div class="content-box full-width">
+                <h2>Sustentabilidade na Agropecuária</h2>
+                <p>O setor agropecuário brasileiro tem adotado práticas sustentáveis, buscando equilibrar a produção com a preservação ambiental:</p>
+                
+                <div class="card-container">
+                    <div class="card">
+                        <h3>Plantio Direto</h3>
+                        <div class="card-icon">🌱</div>
+                        <p>Técnica de cultivo que reduz a erosão e preserva a estrutura do solo.</p>
+                    </div>
+                    
+                    <div class="card">
+                        <h3>Integração Lavoura-Pecuária-Floresta</h3>
+                        <div class="card-icon">🌳</div>
+                        <p>Sistema que combina diferentes atividades produtivas na mesma área.</p>
+                    </div>
+                    
+                    <div class="card">
+                        <h3>Bioinsumos</h3>
+                        <div class="card-icon">🐞</div>
+                        <p>Uso de produtos biológicos para controle de pragas e doenças, reduzindo o uso de agroquímicos.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <footer>
+        <p>&copy; 2025 AgroBrasil - Todos os direitos reservados</p>
+        <p>O melhor conteúdo sobre agropecuária para produtores e interessados no setor</p>
+    </footer>
+</body>
+</html>
